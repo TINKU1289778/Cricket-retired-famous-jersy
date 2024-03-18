@@ -1,7 +1,10 @@
 import streamlit as st
 import pandas as pd
+import time as t
 
-st.balloons(100)
+with st.spinner("just wait")
+      t.sleep(2)
+st.balloons()
 st.title("Hello its Sapg")
 st.subheader("MEANS SAPEKSH GOOGLE")
 st.markdown("HERE IS SOME CRICKET RECORD OF BATTING AND BOWLING")
