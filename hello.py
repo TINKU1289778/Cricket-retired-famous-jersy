@@ -2,9 +2,6 @@ import streamlit as st
 import pandas as pd
 import time as t
 
-with st.spinner("just wait")
-      t.sleep(2)
-st.balloons()
 st.title("Hello its Sapg")
 st.subheader("MEANS SAPEKSH GOOGLE")
 st.markdown("HERE IS SOME CRICKET RECORD OF BATTING AND BOWLING")
@@ -86,3 +83,8 @@ elif c==77:
                 "Secretary of Cricket Association of Nepal and President of Bagmati Province Cricket Association")
 else:
     st.markdown("select from select box It is not retiered jersy number")
+
+with st.spinner("just wait")
+      t.sleep(2)
+
+st.balloons()
