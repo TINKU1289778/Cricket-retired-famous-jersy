@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 import time as t
-st.image("logo.png")
+st.image("logo.png","LOGO 2.PNG")
 
 st.title("Hello its Sapg")
 st.subheader("MEANS SAPEKSH GOOGLE")
