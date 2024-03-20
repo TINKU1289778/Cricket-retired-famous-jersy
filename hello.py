@@ -86,7 +86,9 @@ else:
     st.markdown("select from select box It is not retiered jersy number")
 
 with st.spinner("just wait"):
-      t.sleep(10)
+      t.sleep(5)
+
+st.image("LOGO 2.png")
 
 st.balloons()
 
