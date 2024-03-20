@@ -85,9 +85,7 @@ elif c==77:
 else:
     st.markdown("select from select box It is not retiered jersy number")
 
-st.image("LOGO 2")
-
 with st.spinner("just wait"):
       t.sleep(5)
 
-st.balloons()
+st.balloons(55 years)
